@@ -15,12 +15,12 @@ ylabel("Bien do");
 
 subplot(3, 1, 2);
 plot2d3(n, x2);
-title("Tin hieu roi rac x1(n)");
+title("Tin hieu roi rac x2(n)");
 xlabel("Thoi gian (n)");
 ylabel("Bien do");
 
 subplot(3, 1, 3);
 plot2d3(n, y);
-title("Tin hieu roi rac x1(n)");
+title("Tin hieu roi rac y(n) = x1(n) + x2(n)");
 xlabel("Thoi gian (n)");
 ylabel("Bien do");
