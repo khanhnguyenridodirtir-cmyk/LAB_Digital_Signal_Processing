@@ -29,7 +29,7 @@ a1.x_location = "origin";
 a1.data_bounds = [-2, -3; 3, 4]; 
 xgrid(); // Bật lưới mặc định
 // ------------------------------------------
-// 2. Vẽ tín hiệu lẻ x_2(n)
+// 2. Vẽ tín hiệu x_2(n)
 // ------------------------------------------
 subplot(3, 1, 2);
 plot2d3(n2, x2, 2); e3 = gce(); e3.children.thickness = 3; // Nét đứng màu xanh dương, độ dày 3
@@ -47,7 +47,7 @@ xgrid(); // Bật lưới mặc định
 subplot(3, 1, 3);
 plot2d3(n, y, 3); e5 = gce(); e5.children.thickness = 3; // Nét đứng màu xanh lá đậm
 plot(n, y, 'gx'); e6 = gce(); e6.children.mark_size = 8; e6.children.mark_size_unit = "point"; e6.children.thickness = 2;
-title("Tín hiệu chẵn x_e(n)", "fontsize", 3);
+title("Tín hiệu y(n)", "fontsize", 3);
 xlabel("Chỉ số n"); ylabel("y(n)");
 a3= gca();
 a3.x_location = "origin";
