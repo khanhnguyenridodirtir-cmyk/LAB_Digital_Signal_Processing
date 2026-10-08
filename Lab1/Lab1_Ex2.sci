@@ -1,6 +1,6 @@
 // Ngay 30/9/2026
 // Nguyễn Duy Khánh - 2411516
-//  Phan Quốc Huy - 2411520
+//  Phan Quốc Huy - 2411250
 // 1. Định nghĩa thông số
 F = 50;                 // Tần số f = 100pi / (2pi) = 50 Hz
 T = 1 / F;              // Chu kỳ T = 0.02s
